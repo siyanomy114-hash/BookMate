@@ -24,7 +24,7 @@ jobs:
         run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
 
       - name: Extract project
-        run: unzip -q BookMate.zip -d source
+        run: unzip -q BookMate_Android_Project.zip -d source
 
       - name: Build APK
         run: |
